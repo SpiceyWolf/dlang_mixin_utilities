@@ -1,0 +1,15 @@
+{
+	"name": "mixin_utilities",
+	"description": "Convenient Reusable Mixins.",
+	"copyright": "",
+	"license": "Boost",
+	"authors": [ "" ],
+	
+	"targetPath": "bin",
+	"targetType": "library",
+
+	"buildTypes": {
+		"debug": {"buildOptions": ["debugMode", "debugInfo", "optimize"]},
+		"release": {"buildOptions": ["releaseMode", "optimize", "inline"]}
+	}
+}
